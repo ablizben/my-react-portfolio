@@ -8,7 +8,7 @@ const NavBar = () => {
 
 return (
     <div className="NavBar">
-        <h1>Abby Benjamin</h1>
+        Insert Image Here
         <Router>
         <NavLink to='/'>Home</NavLink>
           <NavLink to='/aboutme'>About</NavLink>
