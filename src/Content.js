@@ -7,14 +7,7 @@ const animation = {
     // if false, animation plays everytime element comes on screen
     once: true
 }
-// Change your display name on tha landing display
-const header = {
-    name: "a Human",
-}
-const background = {
-    // Options: Snow or Particle
-    type: "Snow"
-}
+
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
 const section2title = "About Me"
@@ -72,7 +65,8 @@ const skillsBar = [
     },{
         name: "Wordpress",
         faClass: "fab fa-wordpress"
-    }
+    },
+
 ]
 // Edit your projects, its name, your skills used to make it, and the url. 
 // You can omit freely anything if you dont have it
@@ -148,7 +142,7 @@ const miscellaneous = [
 ]
 // Contact form text, and Jotforms link
 // To get your own jotform link, go to https://www.jotform.com/
-// If you hacve the link already, paste it in the contactUrl below
+// If you have the link already, paste it in the contactUrl below
 const section5Title = "Get in Touch"
 const contact = {
     pitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
@@ -156,7 +150,7 @@ const contact = {
     contactUrl: ''
 }
 // Paste your respective social media links. You can omit any if you dont have it
-// Upload your resume in your drive, get the shaareable link and paste it in the resume section
+// Upload your resume in your drive, get the shareable link and paste it in the resume section
 const social = {
     github: 'https://github.com',
     facebook: 'https://facebook.com',
@@ -165,4 +159,4 @@ const social = {
     resume: 'https://novoresume.com/'
 }
 // Dont change anything here
-export { animation, header, background, about, skillsBar, projects, miscellaneous, contact, social, section2title, section3Title, section4Title, section5Title }
+export { animation, about, skillsBar, projects, miscellaneous, contact, social, section2title, section3Title, section4Title, section5Title }

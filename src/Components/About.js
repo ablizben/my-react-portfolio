@@ -3,6 +3,7 @@ import Skills from './Skills';
 import { skillsBar, section2title } from '../Content';
 
 
+
 const About = () => {
 
     return (
@@ -16,18 +17,21 @@ const About = () => {
         </div>
         <p className="lead about-text">
         <p>
-                I'm a Baltimore-based frontend developer with a background in psychology
-                in both a clinical and research setting, along with human resources and HRIS. 
+                I'm a Baltimore-based frontend developer with a background in psychology and HRIS.
                 When I'm not coding or revamping my portfolio, I love boxing, watching all things
                 horror-related, learning new (spoken) languages, and teacing my pup new tricks.
             </p>
        
             <p>
-            I'm currently looking for an frontend position either remote or in the Baltimore, MD area. 
+            I'm looking for an frontend position that is either remote or in the Baltimore, MD area. 
             My past experience has given me the ability to establish and manage best practice
-            approaches to IT operations and project management as well as possessing an
+            approaches to IT operations and project management as well as allowing me to gain an
             excellent communication skill set, focused on problem resolution and team collaboration.
-            I'm always happy to discuss my current projects or my own journey, navigating the coding world.
+            </p> 
+            <p>   
+            Currently, I'm working with <a href='https://the-collab-lab.codes/'>The Collab Lab</a> on    
+            a team of early career developers to create a PWA that functions as a smart shopping list, with a focus on accessibility,
+            that has a tech stack that includes React, Firebase, Material UI, and Netlify.
             </p> 
         </p>
     </div>

@@ -12,6 +12,22 @@ html.dark-mode {
 button:focus {
   outline: 1px solid #777 !important;
 }
+
+a {
+  color: white;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #1b1b87;
+  background-color: white;
+}
+
+a:focus {
+  color: white;
+  text-decoration: none;
+}
+
 .lead {
   font-weight: 400;
 }
@@ -28,7 +44,7 @@ button:focus {
   font-family: Montserrat, sans-serif;
 }
 .Header h1 {
-  color: #000;
+  color: #4c40f7;
   margin: auto;
   text-align: center;
   font-size: 5.5rem;
@@ -36,11 +52,6 @@ button:focus {
 }
 .Header p {
   margin-top: 125px;
-}
-.particle {
-  position: absolute!;
-  margin: 0 !important;
-  margin-top: -100vh !important;
 }
 .underline {
   text-decoration: underline;
@@ -66,9 +77,10 @@ button:focus {
   -moz-filter: invert(1) hue-rotate(180deg);
 }
 .effect2 {
+  color: white;
   position: relative;
   width: 70%;
-  background: #fff;
+  background: #1b1b87;
   padding: 5%;
   margin: 10% auto;
   border-bottom: solid 1px #777 !important;
@@ -115,8 +127,9 @@ button:focus {
   padding: 2%;
 }
 .red-line {
-  color: var(--primary-color);
+  color: white;
   font-weight: 500;
+  text-decoration: underline;
 }
 .About-title-box {
   box-sizing: border-box;
