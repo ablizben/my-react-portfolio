@@ -10,11 +10,13 @@ return (
     <div className="NavBar">
         Insert Image Here
         <Router>
+            <div class="nav-links">
         <NavLink to='/'>Home</NavLink>
           <NavLink to='/aboutme'>About</NavLink>
           <NavLink to='/projects'>Projects</NavLink>
           <NavLink to='/contact'>Contact</NavLink>
-          </Router>
+            </div>
+        </Router>
     </div>
 );
 }

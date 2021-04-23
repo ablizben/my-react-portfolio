@@ -18,144 +18,115 @@ const about = {
 // To Add a skill, copy any one below and paste it after the last comma
 const skillsBar = [
     {
-        name: "HTML5",
-        faClass: "fab fa-html5"
-    },{
-        name: "CSS3",
-        faClass: "fab fa-css3"
-    },{
         name: "Javascript",
         faClass: "fab fa-js"
-    },{
+    },
+    {
+        name: "HTML5",
+        faClass: "fab fa-html5"
+    },
+    {
+        name: "CSS3",
+        faClass: "fab fa-css3"
+    },
+    {
+        name:   "React",
+        faClass: "fab fa-react"
+    },
+    {
         name: "SASS",
         faClass: "fab fa-sass"
-    },{
+    },
+    {
         name: "Node",
         faClass: "fab fa-node"
-    },{
-        name: "Python",
-        faClass: "fab fa-python"
-    },{
-        name: "Java",
-        faClass: "fab fa-java"
-    },{
+    },
+    {
         name: "PHP",
         faClass: "fab fa-php"
-    },{
-        name: "Database",
-        faClass: "fas fa-database"
-    },{
-        name: "AWS",
-        faClass: "fab fa-aws"
-    },{
-        name: "Docker",
-        faClass: "fab fa-docker"
-    },{
-        name: "NPM",
-        faClass: "fab fa-npm"
-    },{
-        name: "Heroku",
-        faClass: "fas fa-h-square"
-    },{
-        name: "Swift",
-        faClass: "fab fa-swift"
-    },{
-        name: "Linux",
-        faClass: "fab fa-linux"
-    },{
-        name: "Wordpress",
-        faClass: "fab fa-wordpress"
     },
 
+
 ]
-// Edit your projects, its name, your skills used to make it, and the url. 
-// You can omit freely anything if you dont have it
-// To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
+
 const section3Title = "Past Projects"
 const projects = [
     {
         // Add image in './styles/images.css' in #project1
         id: "project1",
-        name: "Project 1",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        name: "The Habit Tracker",
+        skills: ["JavaScript, Node, MySQL"],
+        url: "https://github.com/ablizben/Habit-Tracker"
     },
     {
         // Add image in './styles/images.css' in #project2
         id: "project2",
-        name: "Project 2",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        name: "What's On The Menu",
+        skills: ["HTML, CSS, JavaScript"],
+        url: "https://github.com/ablizben/diet-search"
     },
     {
         // Add image in './styles/images.css' in #project3
         id: "project3",
-        name: "Project 3",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        name: "Flavor Saver",
+        skills: ["React, Express, Node, MongoDB"],
+        url: "https://github.com/ablizben/flavor-saver"
     },
     {
         // Add image in './styles/images.css' in #project4
         id: "project4",
-        name: "Project 4",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        name: "Employee Directory",
+        skills: ["React, CSS"],
+        url: "https://github.com/ablizben/employee-directory"
     },
     {
         // Add image in './styles/images.css' in #project5
         id: "project5",
-        name: "Project 5",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        name: "Fitness Tracker",
+        skills: ["JavaScript, Node, MongoDB"],
+        url: "https://github.com/ablizben/fitness-tracker"
     },
     {
         // Add image in './styles/images.css' in #project6
         id: "project6",
-        name: "Project 6",
+        name: "Pig Game",
         skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        url: "https://github.com/ablizben/pig-game"
     },
 ]
 // Edit your Miscellaneous Activities, its name and the url. 
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous"
+const section4Title = "Collabs"
 const miscellaneous = [
     {
         // Add image in './styles/images.css' in #misc1
         id: "misc1",
-        name: "Miscellaneous 1",
-        url: "https://github.com/kaustubhai"
+        name: "The Collab Lab",
+        url: "https://github.com/ablizben"
     },
     {
         // Add image in './styles/images.css' in #misc2        
         id: "misc2",
-        name: "Miscellaneous 2",
-        url: "https://github.com/kaustubhai"
-    },
-    {
-        // Add image in './styles/images.css' in #misc3
-        id: "misc3",
-        name: "Miscellaneous 3",
-        url: "https://github.com/kaustubhai"
+        name: "Code.Share.Grow.",
+        url: "https://github.com/ablizben"
     },
 ]
+
 // Contact form text, and Jotforms link
 // To get your own jotform link, go to https://www.jotform.com/
 // If you have the link already, paste it in the contactUrl below
 const section5Title = "Get in Touch"
 const contact = {
-    pitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-    copyright: "Kaustubh Mishra",
+    copyright: "Abigail Benjamin",
     contactUrl: ''
 }
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shareable link and paste it in the resume section
 const social = {
-    github: 'https://github.com',
-    facebook: 'https://facebook.com',
-    linkedin: 'https://linkedin.com',
-    instagram: 'https://instagram.com',
+    github: 'https://github.com/ablizben',
+    twitter: 'https://twitter.com/ablizben',
+    linkedin: 'https://www.linkedin.com/in/abby-benjamin/',
     resume: 'https://novoresume.com/'
 }
 // Dont change anything here

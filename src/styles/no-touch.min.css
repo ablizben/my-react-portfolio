@@ -13,9 +13,13 @@ button:focus {
   outline: 1px solid #777 !important;
 }
 
-a {
+.about a {
   color: white;
-  text-decoration: none !important;
+  text-decoration: underline !important;
+}
+
+a {
+  color: #1b1b87;
 }
 
 a:hover {
@@ -59,6 +63,9 @@ a:focus {
 }
 .skills {
   padding: 3%;
+  display: flex;
+  justify-content: center;
+  color: white !important;
 }
 .progress-block {
   padding: 10px 0;
@@ -123,13 +130,12 @@ a:focus {
   background-color: #000;
 }
 .about-text {
-  width: 80%;
   padding: 2%;
 }
 .red-line {
-  color: white;
+  color: lightpink;
   font-weight: 500;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .About-title-box {
   box-sizing: border-box;
@@ -144,17 +150,19 @@ a:focus {
 }
 .skill__square i {
   font-size: 50px !important;
-  color: #777 !important;
+  color: lightpink !important;
   height: 20px;
+  margin-left: 30px;
 }
 .skill__square h6 {
   text-align: center;
   margin: auto;
   font-size: 1em;
   padding-top: 5px;
+  margin-left: 30px;
 }
 .skill__square i:hover {
-  color: #ff4753 !important;
+  color: rgb(255, 208, 0) !important;
 }
 .third {
   width: 75%;
@@ -169,14 +177,14 @@ a:focus {
   box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
 }
 .project-card h2 {
-  color: var(--primary-color);
+  color: rgb(255, 208, 0);
   margin-top: 10px;
   margin-left: 3%;
   font-weight: 500;
 }
 .project-card h2:hover {
-  color: var(--hover-color);
-  text-decoration: none;
+  color: #1b1b87;
+  text-decoration: none !important;
 }
 .project-card h3 {
   text-align: left;
@@ -205,13 +213,14 @@ a:focus {
   transform: scale(1.2);
 }
 .pp-head {
-  text-align: center;
+  text-align: left;
+  color: rgb(255, 208, 0);
 }
 .pp-head-line {
   box-sizing: border-box;
   width: 30%;
   padding-bottom: 5px;
-  border-bottom: solid 2px var(--primary-color);
+  border-bottom: solid 2px #1b1b87;
   margin-bottom: 15px;
 }
 .pp-text {
@@ -276,7 +285,7 @@ textarea:focus {
   font-size: 1rem;
   border-radius: 2rem;
   color: #fff;
-  background-color: var(--primary-color);
+  background-color: #4c40f7;
   box-shadow: none;
   outline: 0;
   border: none;
@@ -284,7 +293,7 @@ textarea:focus {
   margin-left: 20px;
 }
 .half form button:hover {
-  background-color: var(--hover-color);
+  background-color: lightpink;
 }
 .half form {
   padding: 3rem 1rem;
@@ -303,19 +312,19 @@ textarea:focus {
   vertical-align: bottom;
   padding: 10px;
   font-size: 30px;
-  height: 30px;
+  height: 60px;
   text-align: center;
   text-decoration: none;
-  color: var(--primary-color);
+  color: #4c40f7;
   transition: 0.5;
 }
 .git-cont .fab:hover {
-  color: var(--hover-color);
+  color: lightpink;
 }
 .git-cont .fas {
   vertical-align: bottom;
   font-size: 40px;
-  height: 30px;
+  height: 60px;
   margin: 25px;
   text-align: center;
   text-decoration: none;
@@ -562,4 +571,54 @@ input:checked + .slider:before {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+/* Navigation */
+
+.NavBar {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 16px;
+  display: flex;
+  width: 100%;
+}
+
+.nav-links {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+}
+
+.NavBar a {
+  text-decoration: none;
+  position: relative;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  color: inherit;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.NavBar a:hover {
+  color: white;
+  background-color: lightgray;
+}
+
+img {
+  width: 300px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 150px;
+}
+
+.inline-block {
+  margin-top: 200px;
 }

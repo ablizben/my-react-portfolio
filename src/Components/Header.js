@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { social } from '../Content';
 
 
 const Header = () => {
@@ -16,17 +16,20 @@ const Header = () => {
         <div>
             <div className="Header">
                 <h1>abby benjamin</h1>
-                <div id="icons">
-            <a href="https://twitter.com/ablizben"><i class="fab fa-twitter fa-3x"
-                    id="twitter"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://github.com/ablizben"><i class="fab fa-github fa-3x" 
-                    id="github"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.linkedin.com/in/abigail-benjamin-codes/"><i class="fab fa-linkedin fa-3x"
-                     id="linkedin"></i></a>
-        </div>
+                <div>
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                        <div className="inline-block">
+                            {social.linkedin && <a title="Visit Linkedin profile" rel="noopener noreferrer" target="_blank"  href={social.linkedin}><i className="fab fa-linkedin"></i></a>}
+                            {social.instagram && <a title="Visit Twitter profile" rel="noopener noreferrer" target="_blank" href={social.twitter}><i className="fab fa-twitter"></i></a>}
+                            {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}<br/>
+                        </div>
+                            {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download"></i></a>}
+                    </div>
+
+                </div>
             </div>
-      
         </div>
+       
     )
     
 }

@@ -10,4 +10,4 @@ const Skills = ({ label, per, faClass }) => {
     )
 }
 
-export default Skills
+export default Skills;
