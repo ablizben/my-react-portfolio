@@ -1,5 +1,5 @@
 import React from "react";
-import { contact, section5Title, social } from '../Content';
+import { contact, section5Title } from '../Content';
 
 
 const Contact = () => {
@@ -19,8 +19,8 @@ const Contact = () => {
                         <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
                         <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
                         <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
-                        <textarea id="msg" name="message" placeholder="Message" required></textarea>
-                        <button style={{cursor: 'pointer'}} type="submit"><label style={{cursor: 'pointer'}} id="not-dark">Send Message</label></button>
+                        <textarea id="msg" name="message" placeholder="Your message here..." required></textarea>
+                        <button style={{cursor: 'pointer'}} type="submit" id="submit"><label style={{cursor: 'pointer'}} id="not-dark">Send Message</label></button>
                     </form>
                 </div>
                 <div className="col-12 col-sm-6 half">

@@ -20,7 +20,7 @@ a {
   color: #1b1b87;
 }
 
-a:hover {
+p a:hover {
   color: #1b1b87;
   background-color: white;
 }
@@ -273,7 +273,6 @@ textarea:focus {
   outline: 0;
   border: none;
   margin-top: 50px;
-  margin-left: 150px;
 }
 .half form button:hover {
   background-color: lightpink;
@@ -321,9 +320,7 @@ textarea:focus {
   top: 0;
   box-shadow: 0 8px 6px -6px #646464;
 }
-.nav-link {
-  color: #000 !important;
-}
+
 .is-current {
   color: var(--primary-color);
   text-decoration: underline;
@@ -590,8 +587,7 @@ input:checked + .slider:before {
 }
 
 .NavBar a:hover {
-  color: white;
-  background-color: lightgray;
+  color: lightpink;
 }
 
 img {
@@ -609,4 +605,12 @@ img {
   margin-left: 5px;
   width: 30px;
   height: 30px;
+}
+
+#submit {
+  align-items: center;
+}
+
+.container {
+  text-align: center;
 }
