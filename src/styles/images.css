@@ -1,22 +1,19 @@
-/* Add your profile image here */
-.Photo {
-  background-image: url("https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-}
 /* Projects Photo */
 .project1 {
-  background-image: url("https://via.placeholder.com/400x600.png?text=Project+one");
+  background-image: url("../img/project1.jpg");
+  height: 100%;
   cursor: none;
 }
 .project2 {
-  background-image: url("https://via.placeholder.com/400x600.png?text=Project+two");
+  background-image: url("../img/project2.jpg");
   cursor: none;
 }
 .project3 {
-  background-image: url("https://via.placeholder.com/400x600.png?text=Project+three");
+  background-image: url("../img/project3.jpg");
   cursor: none;
 }
 .project4 {
-  background-image: url("https://via.placeholder.com/400x600.png?text=Project+four");
+  background-image: url("../img/project4.jpg");
   cursor: none;
 }
 .project5 {
@@ -24,7 +21,7 @@
   cursor: none;
 }
 .project6 {
-  background-image: url("https://via.placeholder.com/400x600.png?text=Project+six");
+  background-image: url("../img/project6.jpg");
   cursor: none;
 }
 /* Miscelaneous Activities photo */

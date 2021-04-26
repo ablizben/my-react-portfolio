@@ -1,5 +1,5 @@
 import React from "react";
-import { contact, section5Title } from '../Content';
+import { contact, section5Title, social } from '../Content';
 
 
 const Contact = () => {
@@ -27,9 +27,11 @@ const Contact = () => {
                     <p className="lead">
                         {contact.pitch}        
                     </p>
-
+                <div className="d-flex justify-content-center align-items-center flex-column">
+ 
+                  
                 </div>
-           
+                </div>
             </div>
             </div>
         </div>

@@ -6,9 +6,7 @@ body {
   padding: 0;
   background-color: #fff;
 }
-html.dark-mode {
-  background-color: #000;
-}
+
 button:focus {
   outline: 1px solid #777 !important;
 }
@@ -75,16 +73,7 @@ a:focus {
 .progress-block h2 {
   font-size: x-large;
 }
-.dark-mode {
-  filter: invert(1) hue-rotate(180deg);
-  -webkit-filter: invert(1) hue-rotate(180deg);
-  -moz-filter: invert(1) hue-rotate(180deg);
-}
-.inverse-dark {
-  filter: invert(1) hue-rotate(180deg);
-  -webkit-filter: invert(1) hue-rotate(180deg);
-  -moz-filter: invert(1) hue-rotate(180deg);
-}
+
 .effect2 {
   color: white;
   position: relative;
@@ -123,14 +112,7 @@ a:focus {
   right: 10px;
   left: auto;
 }
-.Photo {
-  background-color: #fff;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.Photo.inverse-dark {
-  background-color: #000;
-}
+
 .about-text {
   padding: 2%;
 }
@@ -237,7 +219,7 @@ a:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: lightgray;
+  background: #1b1b87;
 }
 .git-form {
   width: 1160px;
@@ -250,9 +232,8 @@ a:focus {
   box-sizing: border-box;
   padding-top: 5%;
   padding-bottom: 15px;
-  width: 30%;
-  border-bottom: 3px solid #000;
-  color: #000;
+  border-bottom: 3px solid #1b1b87;
+  color: rgb(255, 208, 0);
   font-weight: 500;
   text-align: center;
 }
@@ -281,7 +262,6 @@ textarea:focus {
   border-radius: 5px;
   outline: 0;
   box-shadow: none;
-  border: 1px solid var(--primary-color);
 }
 .half form button {
   padding: 10px 15px;
@@ -292,8 +272,8 @@ textarea:focus {
   box-shadow: none;
   outline: 0;
   border: none;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 50px;
+  margin-left: 150px;
 }
 .half form button:hover {
   background-color: lightpink;
@@ -540,9 +520,7 @@ input:checked + .slider:before {
     padding: 5px;
     padding-bottom: 35px;
   }
-  .git-head-div {
-    width: 75%;
-  }
+
   .switch {
     bottom: 48%;
     left: 35%;
@@ -571,8 +549,7 @@ input:checked + .slider:before {
     font-size: 20px;
   }
   .half form button {
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 50px;
   }
 }
 
@@ -625,5 +602,11 @@ img {
 }
 
 .inline-block {
-  margin-top: 200px;
+  margin-top: 150px;
+}
+
+.Header a {
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
 }
