@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -210,7 +215,7 @@ a:focus {
 .pp-text {
   font-size: 1.5rem;
 }
-.parallax {
+#contact {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -256,6 +261,7 @@ textarea {
 }
 .half form textarea {
   padding-bottom: 45px;
+  font: inherit;
 }
 .half form input:focus,
 textarea:focus {
@@ -618,4 +624,19 @@ input:checked + .slider:before {
 #favicon {
   width: 32px;
   height: 32px;
+}
+
+.header-icons {
+  letter-spacing: 20px;
+  margin-top: 250px;
+}
+
+#linkedin:hover,
+#github:hover,
+#resume:hover {
+  color: white !important;
+}
+
+.social-icons {
+  margin-bottom: 10px;
 }

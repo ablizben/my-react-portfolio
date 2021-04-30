@@ -5,7 +5,7 @@ import { contact, section5Title } from '../Content';
 const Contact = () => {
 
     return (
-        <div className="parallax">
+        <div id="contact">
                 <div data-aos="zoom-in-up" data-aos-once="true" className="git-form">
                     <>
                 <div className="git-head-div text-center mx-auto">

@@ -4,7 +4,7 @@ import { projects, miscellaneous, section3Title, section4Title } from '../Conten
 
 const Projects = () => {
     return (
-        <>
+        <div id="projects">
             <div data-aos="zoom-in-up" data-aos-once="true" className="third">
                 <>
                     <div className="pp-head-line mx-auto text-center">
@@ -30,7 +30,7 @@ const Projects = () => {
                     )}
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

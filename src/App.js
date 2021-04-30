@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import NavBar from './Components/NavBar';
 import Header from './Components/Header';
 import About from './Components/About';
@@ -20,6 +20,7 @@ function App() {
 }, [])
   return (
     <div className="App">
+
       <NavBar />
       <Header />
       <About />
