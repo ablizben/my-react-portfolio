@@ -202,15 +202,14 @@ a:focus {
   transform: scale(1.2);
 }
 .pp-head {
-  text-align: left;
   color: rgb(255, 208, 0);
 }
 .pp-head-line {
   box-sizing: border-box;
-  width: 30%;
   padding-bottom: 5px;
   border-bottom: solid 2px #1b1b87;
   margin-bottom: 15px;
+  text-align: center;
 }
 .pp-text {
   font-size: 1.5rem;
@@ -515,9 +514,7 @@ input:checked + .slider:before {
   .third {
     padding: 5%;
   }
-  .pp-head-line {
-    width: 70%;
-  }
+
   .git-form {
     width: 90%;
     padding: 5px;
@@ -595,13 +592,6 @@ input:checked + .slider:before {
 .NavBar a:hover {
   color: lightpink;
 }
-
-/* img {
-  width: 300px;
-  height: 250px;
-  border-radius: 50%;
-  margin-top: 150px;
-} */
 
 .inline-block {
   margin-top: 150px;
