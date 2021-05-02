@@ -23,15 +23,6 @@ const Contact = () => {
                         <button style={{cursor: 'pointer'}} type="submit" id="submit"><label style={{cursor: 'pointer'}} id="not-dark">Send Message</label></button>
                     </form>
                 </div>
-                <div className="col-12 col-sm-6 half">
-                    <p className="lead">
-                        {contact.pitch}        
-                    </p>
-                <div className="d-flex justify-content-center align-items-center flex-column">
- 
-                  
-                </div>
-                </div>
             </div>
             </div>
         </div>

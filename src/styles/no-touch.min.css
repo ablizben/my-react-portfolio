@@ -34,8 +34,7 @@ a:focus {
   color: white;
   text-decoration: none;
 }
-
-.lead {
+*/ .lead {
   font-weight: 400;
 }
 .bg-danger {
@@ -120,6 +119,11 @@ a:focus {
 
 .about-text {
   padding: 2%;
+  text-align: center;
+}
+
+#about-info {
+  justify-content: center;
 }
 .red-line {
   color: lightpink;
@@ -148,7 +152,6 @@ a:focus {
   margin: auto;
   font-size: 1em;
   padding-top: 5px;
-  margin-left: 30px;
 }
 .skill__square i:hover {
   color: rgb(255, 208, 0) !important;
@@ -496,6 +499,7 @@ input:checked + .slider:before {
   .red-line::before {
     bottom: 590px;
   }
+
   .effect2 {
     width: 100%;
   }
