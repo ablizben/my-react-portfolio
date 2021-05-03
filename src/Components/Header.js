@@ -5,13 +5,13 @@ import { social } from '../Content';
 
 const Header = () => {
 
-    const scrollTo = () => {
-        window.scrollTo({
-            top: 100000,
-            left: 0,
-            behavior: "smooth"
-        })
-    }
+    // const scrollTo = () => {
+    //     window.scrollTo({
+    //         top: 100000,
+    //         left: 0,
+    //         behavior: "smooth"
+    //     })
+    // }
 
     return (
         <div>

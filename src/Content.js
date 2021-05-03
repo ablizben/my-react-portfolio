@@ -8,14 +8,11 @@ const animation = {
     once: true
 }
 
-// Write a para about yourself here
-// To update your image, go to './styles/images.css'
 const section2title = "About Me"
 const about = {
-    paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. Orci phasellus egestas tellus rutrum tellus pellentesque eu. Dapibus ultrices in iaculis nunc. Pretium nibh ipsum consequat nisl vel. Consequat ac felis donec et odio. Orci nulla pellentesque dignissim enim sit amet. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu."
+    paragraph: ""
 }
-// Edit your skill and the percentage you know about it
-// To Add a skill, copy any one below and paste it after the last comma
+
 const skillsBar = [
     {
         name: "Javascript",
@@ -94,9 +91,7 @@ const projects = [
         url: "https://github.com/ablizben/pig-game"
     },
 ]
-// Edit your Miscellaneous Activities, its name and the url. 
-// You can omit freely anything if you dont have it
-// To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
+
 const section4Title = "Collabs"
 const miscellaneous = [
     {
@@ -113,21 +108,19 @@ const miscellaneous = [
     },
 ]
 
-// Contact form text, and Jotforms link
-// To get your own jotform link, go to https://www.jotform.com/
-// If you have the link already, paste it in the contactUrl below
+
 const section5Title = "Get in Touch"
 const contact = {
     copyright: "Abigail Benjamin",
     contactUrl: 'https://form.jotform.com/211218316553045'
 }
-// Paste your respective social media links. You can omit any if you dont have it
-// Upload your resume in your drive, get the shareable link and paste it in the resume section
+
 const social = {
     github: 'https://github.com/ablizben',
     twitter: 'https://twitter.com/ablizben',
     linkedin: 'https://www.linkedin.com/in/abby-benjamin/',
-    resume: 'https://novoresume.com/'
+    resume: 'https://drive.google.com/file/d/1drl_KJkt48Ng72uib-Tns0BDbcecPjSI/view?usp=sharing'
 }
-// Dont change anything here
+
+
 export { animation, about, skillsBar, projects, miscellaneous, contact, social, section2title, section3Title, section4Title, section5Title }
