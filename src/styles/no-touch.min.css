@@ -128,11 +128,10 @@ a:focus {
 .red-line {
   color: lightpink;
   font-weight: 500;
-  /* text-decoration: underline; */
+  text-align: center;
 }
 .About-title-box {
   box-sizing: border-box;
-  width: 50%;
   padding-bottom: 5px;
   border-bottom: solid 2pxvar (--primary-color);
   margin-bottom: 15px;
@@ -551,9 +550,6 @@ input:checked + .slider:before {
   }
   .fa-eye {
     font-size: 20px;
-  }
-  .half form button {
-    margin-right: 50px;
   }
 }
 
