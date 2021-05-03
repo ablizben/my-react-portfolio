@@ -119,7 +119,7 @@ const miscellaneous = [
 const section5Title = "Get in Touch"
 const contact = {
     copyright: "Abigail Benjamin",
-    contactUrl: ''
+    contactUrl: 'https://form.jotform.com/211218316553045'
 }
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shareable link and paste it in the resume section
