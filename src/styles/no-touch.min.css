@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: #09182f;
 }
 
 button:focus {
@@ -40,6 +40,8 @@ a:focus {
 }
 
 .Header {
+  color: #8892b0;
+  text-transform: uppercase;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -47,21 +49,43 @@ a:focus {
   flex-direction: column;
   height: 100vh;
   font-family: Montserrat, sans-serif;
-  background-image: linear-gradient(to top, white, lightpink, #1b1b87, #00113b);
+  background-color: #09182f;
+  font-family: "Overpass Mono", monospace;
 }
 
 .Header h1 {
-  color: #1b1b87;
   margin: auto;
   text-align: center;
   font-size: 5.5rem;
   position: absolute;
 }
-.Header p {
+
+.Header h2 {
   margin-top: 125px;
+}
+
+span {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transform: rotate(-45deg);
+  -webkit-animation: sdb04 2s infinite;
+  animation: sdb04 2s infinite;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 .underline {
   text-decoration: underline;
+}
+
+hr {
+  margin: auto 20px;
+  border: 1.5px solid rgb(150, 150, 150);
 }
 .skills {
   padding: 3%;
@@ -78,12 +102,12 @@ a:focus {
 
 .effect2 {
   color: white;
-  position: relative;
+  /* position: relative; */
   width: 70%;
-  background: #1b1b87;
+  /* background: #09182f; */
   padding: 5%;
   margin: 10% auto;
-  border-bottom: solid 1px #777 !important;
+  /* border-bottom: solid 1px #777 !important; */
 }
 .effect2:after,
 .effect2:before {
@@ -120,11 +144,15 @@ a:focus {
   text-align: center;
 }
 
+.about-text p {
+  color: #8892b0;
+}
+
 #about-info {
   justify-content: center;
 }
 .red-line {
-  color: lightpink;
+  color: #fff;
   font-weight: 500;
   text-align: center;
 }
@@ -140,7 +168,7 @@ a:focus {
 }
 .skill__square i {
   font-size: 50px !important;
-  color: lightpink !important;
+  color: #68efd3 !important;
   height: 20px;
   margin-left: 30px;
 }
@@ -151,7 +179,7 @@ a:focus {
   padding-top: 5px;
 }
 .skill__square i:hover {
-  color: rgb(255, 208, 0) !important;
+  color: lightpink !important;
 }
 .third {
   width: 75%;
@@ -166,19 +194,20 @@ a:focus {
   box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
 }
 .project-card h2 {
-  color: rgb(255, 208, 0);
+  color: #ccd6f6;
   margin-top: 10px;
   margin-left: 3%;
   font-weight: 500;
 }
 .project-card h2:hover {
-  color: #1b1b87;
+  color: lightpink;
   text-decoration: none !important;
 }
 .project-card h3 {
   text-align: left;
   font-size: 1rem;
   margin-left: 3%;
+  color: #68efd3;
 }
 .image-project {
   height: 300px;
@@ -202,12 +231,12 @@ a:focus {
   transform: scale(1.2);
 }
 .pp-head {
-  color: rgb(255, 208, 0);
+  color: #fff;
 }
 .pp-head-line {
   box-sizing: border-box;
   padding-bottom: 5px;
-  border-bottom: solid 2px #1b1b87;
+  /* border-bottom: solid 2px #1b1b87; */
   margin-bottom: 15px;
   text-align: center;
 }
@@ -223,21 +252,22 @@ a:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #1b1b87;
+  background: #09182f;
 }
 .git-form {
   width: 1160px;
   box-sizing: border-box;
   display: block;
   padding: 3rem;
-  background-color: #fff;
+  background-color: #09182f;
+  border: 2px solid #ccd6f6;
 }
 .git-head-div {
   box-sizing: border-box;
   padding-top: 5%;
   padding-bottom: 15px;
-  border-bottom: 3px solid #1b1b87;
-  color: rgb(255, 208, 0);
+  /* border-bottom: 3px solid #1b1b87; */
+  color: #ccd6f6;
   font-weight: 500;
   text-align: center;
 }
@@ -273,7 +303,7 @@ textarea:focus {
   font-size: 1rem;
   border-radius: 2rem;
   color: #fff;
-  background-color: #4c40f7;
+  background-color: #ccd6f6;
   box-shadow: none;
   outline: 0;
   border: none;
@@ -451,6 +481,8 @@ textarea:focus {
     width: 90%;
     padding: 5px;
     padding-bottom: 35px;
+    background: #09182f;
+    border: 3px solid #ccd6f6;
   }
 
   .switch {
@@ -505,6 +537,9 @@ textarea:focus {
   margin: 0px;
   min-width: 0px;
   display: flex;
+  text-transform: uppercase;
+  font-family: "Overpass Mono", monospace;
+  letter-spacing: 1px;
 }
 
 .NavBar a {
