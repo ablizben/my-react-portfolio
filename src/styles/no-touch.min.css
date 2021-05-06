@@ -416,7 +416,6 @@ textarea:focus {
   flex-direction: row;
 }
 
-/* container emojis links */
 .container .fab,
 .container .fas {
   vertical-align: bottom;
@@ -481,20 +480,6 @@ textarea:focus {
 .see:hover {
   background-color: var(--hover-color);
 }
-
-/* .line-1 {
-  position: relative;
-  top: 10%;
-  width: 12em;
-  margin: 0 auto;
-  border-right: 2px solid rgba(25, 25, 25, 0.75);
-  font-size: 180%;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
-  font-family: "Anonymous Pro", monospace !important;
-} */
 
 ::-moz-selection {
   color: #fff;

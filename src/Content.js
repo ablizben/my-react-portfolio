@@ -92,21 +92,21 @@ const projects = [
     },
 ]
 
-const section4Title = "Collabs"
-const miscellaneous = [
-    {
-        // Add image in './styles/images.css' in #misc1
-        id: "misc1",
-        name: "The Collab Lab",
-        url: "https://github.com/ablizben"
-    },
-    {
-        // Add image in './styles/images.css' in #misc2        
-        id: "misc2",
-        name: "Code.Share.Grow.",
-        url: "https://github.com/ablizben"
-    },
-]
+// const section4Title = "Collabs"
+// const miscellaneous = [
+//     {
+//         // Add image in './styles/images.css' in #misc1
+//         id: "misc1",
+//         name: "The Collab Lab",
+//         url: "https://github.com/ablizben"
+//     },
+//     {
+//         // Add image in './styles/images.css' in #misc2        
+//         id: "misc2",
+//         name: "Code.Share.Grow.",
+//         url: "https://github.com/ablizben"
+//     },
+// ]
 
 
 const section5Title = "Get in Touch"
@@ -123,4 +123,6 @@ const social = {
 }
 
 
-export { animation, about, skillsBar, projects, miscellaneous, contact, social, section2title, section3Title, section4Title, section5Title }
+export { animation, about, skillsBar, projects, contact, social, section2title, section3Title, section5Title }
+
+//removed miscellaneous and section4Title for now. 
