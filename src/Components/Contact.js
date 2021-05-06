@@ -1,5 +1,5 @@
 import React from "react";
-import { contact, section5Title } from '../Content';
+import { contact, section5Title, social } from '../Content';
 
 
 const Contact = () => {
@@ -24,6 +24,15 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
+                            <div className="header-icons">
+                     <div className="social-icons">
+                            {social.linkedin && <a title="Visit Linkedin profile" rel="noopener noreferrer" target="_blank"  href={social.linkedin}><i className="fab fa-linkedin fa-3x" id="linkedin"></i></a>}
+                            {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github fa-3x" id="github"></i></a>}<br/>
+                    </div>
+                    <div className="resume-icon">
+                            {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download fa-3x" id="resume"></i></a>}
+                    </div>
+                </div>
             </div>
         </div>
             <p id="not-dark" className="Copy">2021 © Copyright <strong>{contact.copyright}</strong>. All Rights Reserved</p>
