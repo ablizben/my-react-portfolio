@@ -29,7 +29,7 @@ const About = () => {
                 excellent communication skill set, focused on problem resolution and team collaboration.
                 </p> 
                 <p>   
-                Currently, I'm working with <a href='https://the-collab-lab.codes/'>The Collab Lab</a> on    
+                Currently, I'm working with <a href ='https://the-collab-lab.codes/'>The Collab Lab</a> on    
                 a team of early career developers to create a PWA that functions as a smart shopping list, with a focus on accessibility,
                 that has a tech stack that includes React, Firebase, Material UI, and Netlify.
                 </p> 

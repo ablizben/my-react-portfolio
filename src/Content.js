@@ -79,9 +79,9 @@ const projects = [
     {
         // Add image in './styles/images.css' in #project5
         id: "project5",
-        name: "Fitness Tracker",
-        skills: ["JavaScript, Node, MongoDB"],
-        url: "https://github.com/ablizben/fitness-tracker"
+        name: "Luna's Online Store",
+        skills: ["React, CSS"],
+        url: "https://github.com/ablizben/lunas-online-store"
     },
     {
         // Add image in './styles/images.css' in #project6
