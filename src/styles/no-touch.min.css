@@ -61,7 +61,7 @@ hr {
   color: inherit;
   transition: all 0.4s ease 0s;
   cursor: pointer;
-  margin-right: 10px;
+  margin-right: 25px;
 }
 
 .NavBar a:hover {
@@ -289,6 +289,7 @@ a:focus {
 
 .image-project:hover .img-pro {
   transform: scale(1.2);
+  cursor: pointer;
 }
 
 .project-name {
@@ -437,7 +438,7 @@ textarea:focus {
 }
 
 .Copy {
-  color: black !important;
+  color: white;
   font-weight: 500;
   padding-top: 2%;
 }

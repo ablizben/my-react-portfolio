@@ -2,38 +2,29 @@
 .project1 {
   background-image: url("../img/project1.jpg");
   height: 100%;
-  cursor: none;
 }
 .project2 {
   background-image: url("../img/project2.jpg");
-  cursor: none;
 }
 .project3 {
   background-image: url("../img/project3.jpg");
-  cursor: none;
 }
 .project4 {
   background-image: url("../img/project4.jpg");
-  cursor: none;
 }
 .project5 {
   background-image: url("../img/project5.jpg");
-  cursor: none;
 }
 .project6 {
   background-image: url("../img/project6.jpg");
-  cursor: none;
 }
 /* Miscelaneous Activities photo */
 .misc1 {
   background-image: url("https://via.placeholder.com/400x600.png?text=Miscellaneous+one");
-  cursor: none;
 }
 .misc2 {
   background-image: url("https://via.placeholder.com/400x600.png?text=Miscellaneous+two");
-  cursor: none;
 }
 .misc3 {
   background-image: url("https://via.placeholder.com/400x600.png?text=Miscellaneous+three");
-  cursor: none;
 }
