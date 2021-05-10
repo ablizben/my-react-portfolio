@@ -52,43 +52,49 @@ const projects = [
         // Add image in './styles/images.css' in #project1
         id: "project1",
         name: "The Habit Tracker",
-        skills: ["JavaScript, Node, MySQL"],
-        url: "https://github.com/ablizben/Habit-Tracker"
+        // skills: ["JavaScript, Node, MySQL"],
+        skills: [<a href="https://github.com/ablizben/Habit-Tracker"><i class="fab fa-github fa-2x" id="githubLink"></i></a>, <a href="https://thomas-abby-dada-jessica.herokuapp.com/"><i class="fas fa-laptop fa-2x" id="siteLink"></i></a>],
+        // url: "https://github.com/ablizben/Habit-Tracker"
     },
     {
         // Add image in './styles/images.css' in #project2
         id: "project2",
         name: "What's On The Menu",
-        skills: ["HTML, CSS, JavaScript"],
-        url: "https://github.com/ablizben/diet-search"
+        // skills: ["HTML, CSS, JavaScript"],
+        skills: [<a href="https://github.com/ablizben/diet-search"><i class="fab fa-github fa-2x" id="githubLink"></i></a>, <a href="https://larguar.github.io/diet-search/"><i class="fas fa-laptop fa-2x" id="siteLink"></i></a>],
+        // url: "https://github.com/ablizben/diet-search"
     },
     {
         // Add image in './styles/images.css' in #project3
         id: "project3",
         name: "Flavor Saver",
-        skills: ["React, Express, Node, MongoDB"],
-        url: "https://github.com/ablizben/flavor-saver"
+        // skills: ["React, Express, Node, MongoDB"],
+        skills: [<a href="https://github.com/ablizben/flavor-saver"><i class="fab fa-github fa-2x" id="githubLink"></i></a>, <a href="https://flavor-saver-app.herokuapp.com/"><i class="fas fa-laptop fa-2x" id="siteLink"></i></a>],
+        // url: "https://github.com/ablizben/flavor-saver"
     },
     {
         // Add image in './styles/images.css' in #project4
         id: "project4",
         name: "Employee Directory",
-        skills: ["React, CSS"],
-        url: "https://github.com/ablizben/employee-directory"
+        // skills: ["React, CSS"],
+        skills: [<a href="https://github.com/ablizben/employee-directory"><i class="fab fa-github fa-2x" id="githubLink"></i></a>, <a href="https://ablizben.github.io/employee-directory/"><i class="fas fa-laptop fa-2x" id="siteLink"></i></a>],
+        // url: "https://github.com/ablizben/employee-directory"
     },
     {
         // Add image in './styles/images.css' in #project5
         id: "project5",
         name: "Luna's Online Store",
-        skills: ["React, CSS"],
-        url: "https://github.com/ablizben/lunas-online-store"
+        // skills: ["React, CSS"],
+        skills: [<a href="https://github.com/ablizben/luna-online-store"><i class="fab fa-github fa-2x" id="githubLink"></i></a>],
+        // url: "https://github.com/ablizben/lunas-online-store"
     },
     {
         // Add image in './styles/images.css' in #project6
         id: "project6",
         name: "Pig Game",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/ablizben/pig-game"
+        // skills: ["HTML, CSS, JS"],
+        skills: [<a href="https://github.com/ablizben/pig-game"><i class="fab fa-github fa-2x" id="githubLink"></i></a>, <a href="https://ablizben.github.io/pig-game/"><i class="fas fa-laptop fa-2x" id="siteLink"></i></a>],
+        // url: "https://github.com/ablizben/pig-game"
     },
 ]
 
