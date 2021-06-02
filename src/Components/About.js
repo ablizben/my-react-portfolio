@@ -22,16 +22,10 @@ const About = () => {
                 When I'm not coding or revamping my portfolio, I love boxing, watching all things
                 horror-related, learning new (spoken) languages, and teaching my pup new tricks.
                 </p>
-                <p>
-                I'm looking for an frontend position that is either remote or in the Baltimore, MD area. 
-                My past experience has given me the ability to establish and manage best practice
-                approaches to IT operations and project management as well as allowing me to gain an
-                excellent communication skill set, focused on problem resolution and team collaboration.
-                </p> 
                 <p>   
-                Currently, I'm working with <a href ='https://the-collab-lab.codes/'>The Collab Lab</a> on    
-                a team of early career developers to create a PWA that functions as a smart shopping list, with a focus on accessibility,
-                that has a tech stack that includes React, Firebase, Material UI, and Netlify.
+                Recently, I finished up working with the <a href ='https://the-collab-lab.codes/'>The Collab Lab</a> on    
+                a smart shopping list, with a focus on accessibility, that has a tech stack that includes React, Firebase, Material UI, and Netlify.
+                Currently, I'm working at <a href="https://www.vultr.com/">Vultr</a> as a Junior Software Engineer. 
                 </p> 
             </p>
         </div>

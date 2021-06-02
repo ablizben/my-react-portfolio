@@ -75,9 +75,9 @@ const projects = [
     {
         // Add image in './styles/images.css' in #project4
         id: "project4",
-        name: "Employee Directory",
+        name: "AvoCart",
         // skills: ["React, CSS"],
-        skills: [<a href="https://github.com/ablizben/employee-directory"><i class="fab fa-github fa-2x" id="githubLink"></i></a>, <a href="https://ablizben.github.io/employee-directory/"><i class="fas fa-laptop fa-2x" id="siteLink"></i></a>],
+        skills: [<a href="https://github.com/the-collab-lab/tcl-22-smart-shopping-list"><i class="fab fa-github fa-2x" id="githubLink"></i></a>, <a href="https://tcl-22-shopping-list.web.app/"><i class="fas fa-laptop fa-2x" id="siteLink"></i></a>],
         // url: "https://github.com/ablizben/employee-directory"
     },
     {
